@@ -4,7 +4,7 @@
 .page-header {
     text-align: center;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .recipes {
@@ -30,4 +30,35 @@
 .item-img:hover {
     transform: scale(1.02);
     transition: all ease;
+}
+
+.recipe-title {
+    text-align: center;
+}
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ingredients {
+    margin: 40px;
+    max-width: 320px;
+}
+
+.ingredients ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.recipe {
+    margin: 40px;
+    max-width: 720px;
+}
+
+.recipe ol {
+    margin: 0;
+    padding: 0;
 }
